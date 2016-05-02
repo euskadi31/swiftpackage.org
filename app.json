@@ -1,0 +1,15 @@
+{
+    "name": "swiftpackage.org",
+    "description": "The swiftpackage.org website.",
+    "repository": "https://github.com/euskadi31/swiftpackage.org",
+    "website": "https://github.com/euskadi31/swiftpackage.org",
+    "keywords": [
+        "swift",
+        "package"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kylef/heroku-buildpack-swift"
+        }
+    ]
+}
